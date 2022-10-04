@@ -15,23 +15,23 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="container" id="grocery-form-container">
             <form action="" id="grocery-form">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label text-white mt-3 fw-bold ps-1">ID</label>
-                    <input type="email" class="form-control" id="grocery-id" placeholder="e.g: 1,2,3.">
+                    <input type="number" class="form-control" id="grocery-id" placeholder="e.g: 1,2,3.">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label text-white mt-3 fw-bold ps-1">GROCERY NAME</label>
-                    <input type="email" class="form-control" id="grocery-name" placeholder="e.g: Rice, Oil, etc.">
+                    <input type="text" class="form-control" id="grocery-name" placeholder="e.g: Rice, Oil, etc.">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label text-white mt-3 fw-bold ps-1">QUANTITY</label>
-                    <input type="email" class="form-control" id="grocery-quantity" placeholder="e.g: 2 KG, 5 Litres, etc.">
+                    <input type="text" class="form-control" id="grocery-quantity" placeholder="e.g: 2 KG, 5 Litres, etc.">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label text-white mt-3 fw-bold ps-1">PRICE</label>
-                    <input type="email" class="form-control" id="grocery-price" placeholder="e.g: 200 TK, etc.">
+                    <input type="text" class="form-control" id="grocery-price" placeholder="e.g: 200 TK, etc.">
                 </div>
                 <button class="btn btn-success w-100 mt-2 " id="btn-add-grocery">ADD GROCERY TO LIST</button>
             </form>
@@ -52,6 +52,12 @@
                   </tr>
                 </thead>
                 <tbody id="grocery-list">
+                    <!-- <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> -->
                 </tbody>
             </table>
         </section>
@@ -60,5 +66,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
     "></script>
     <script src="./app.js"></script>
+    <script src="./withes6.js"></script>
 </body>
 </html>
